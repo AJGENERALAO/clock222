@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="styles.css">
+  <title>Alarm Clock</title>
+
+</head>
+<body>
+  <div class="container">
+    <h1>Alarm Clock</h1>
+    <p id="clock"></p>
+
+
+    <div class="fullscreen-icons">
+      <button id="openFullscreen" title="Enter Fullscreen">⛶</button>
+      <button id="closeFullscreen" title="Exit Fullscreen" style="display:none;">✖</button>
+    </div>
+
+    <div class="time-input">
+      <input type="time" id="alarmTime">
+      <button onclick="setAlarm()">Set Alarm</button>
+      <button onclick="stopAlarm()" id="stopButton">Stop</button>
+      <button onclick="changeSound()">Change Sound</button>
+    </div>
+
+    <!-- File input for changing the alarm sound -->
+    <input type="file" id="soundFile" class="file-input" accept="audio/*" onchange="loadNewSound(event)">
+    
+    <audio id="alarmSound" src="alarm-sound/alarm-301729.mp3" preload="auto"></audio>
+    
+    <div class="alert" id="alertBox">Alarm set successfully!</div>
+  </div>
+
+<script src="script.js"></script>
+</body>
+</html>
+  
