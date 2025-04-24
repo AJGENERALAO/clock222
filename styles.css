@@ -1,77 +1,80 @@
 
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 90vh;
-    background: #2b2b2b;
-    color: #fff;
-    font-family: 'Arial', sans-serif;
-    flex-direction: column;
-  }
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  background: #121214;
+  color: #fff;
+  font-family: 'Arial', sans-serif;
+  flex-direction: column;
+}
 
-  .clock {
-    font-size: 8rem;
-    font-style: monospace;
-  }
+.clock {
+  font-size: 8rem;
+  font-style: monospace;
+}
 
-  .date {
-    font-size: 1rem;
-    color: #ccc;
-  }
+.date {
+  font-size: 1rem;
+  color: #ccc;
+}
 
- .fullscreen-icons {
-  position: fixed;
-  top: 20px;
-  right: 20px;
-  z-index: 1000;
-  color: #ffffff;
+.fullscreen-icons {
+position: fixed;
+top: 20px;
+right: 20px;
+z-index: 1000;
+color: #ffffff;
 }
 
 .fullscreen-icons button {
-  background: none;
-  border: none;
-  font-size: 30px;
-  cursor: pointer;
-  margin: 5px;
-  color: #ffffff;
+background: none;
+border: none;
+font-size: 30px;
+cursor: pointer;
+margin: 5px;
+color: #ffffff;
 }
 
 button {
-  padding: 12px 20px;
-  background-color: #2b2b2b;
-  color: #fff;
-  border: none;
-  border-radius: 5px;
-  font-size: 1rem;
-  cursor: pointer;
-  margin: 10px;
-  transition: background-color 0.3s;
+padding: 12px 20px;
+background-color: #121214;
+color: #fff;
+border: none;
+border-radius: 5px;
+font-size: 1rem;
+cursor: pointer;
+margin: 10px;
+transition: background-color 0.3s;
 }
 
 button i {
-  background-color: #2b2b2b;
-  position: fixed;
-
-  top: 43px;
-  right: 102px;
-  z-index: 1000;
-  color: #ffffff;
+background-color: #121214;
+position: fixed;
+top: 41px;
+right: 102px;
+z-index: 1000;
+color: #ffffff;
 }
+
+
 
 @media (max-width: 1226px) {
 
-  
+
 body {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 90vh;
-  background: #2b2b2b;
+  background: #121214;
   color: #fff;
   font-family: 'Arial', sans-serif;
   flex-direction: column;
 }
+
+
 
 .clock {
   font-size: 4rem;
@@ -102,7 +105,7 @@ color: #ffffff;
 
 button {
 padding: 12px 20px;
-background-color: #2b2b2b;
+background-color: #121214;
 color: #fff;
 border: none;
 border-radius: 5px;
@@ -113,10 +116,9 @@ transition: background-color 0.3s;
 }
 
 button i {
-background-color: #2b2b2b;
+background-color: #121214;
 position: fixed;
-
-top: 44px;
+top: 41px;
 right: 102px;
 z-index: 1000;
 color: #ffffff;
@@ -125,26 +127,28 @@ color: #ffffff;
 }
 
 @media (max-width: 502px) {
-  
+
 body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 90vh;
-  background: #2b2b2b;
-  color: #fff;
-  font-family: 'Arial', sans-serif;
-  flex-direction: column;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 90vh;
+background: #121214;
+color: #fff;
+font-family: 'Arial', sans-serif;
+flex-direction: column;
 }
 
+
+
 .clock {
-  font-size: 3rem;
-  font-style: monospace;
+font-size: 3rem;
+font-style: monospace;
 }
 
 .date {
-  font-size: 1rem;
-  color: #ccc;
+font-size: 1rem;
+color: #ccc;
 }
 
 .fullscreen-icons {
@@ -166,7 +170,7 @@ color: #ffffff;
 
 button {
 padding: 12px 20px;
-background-color: #2b2b2b;
+background-color: #121214;
 color: #fff;
 border: none;
 border-radius: 5px;
@@ -177,10 +181,9 @@ transition: background-color 0.3s;
 }
 
 button i {
-background-color: #2b2b2b;
+background-color: #121214;
 position: fixed;
-
-top: 44px;
+top: 41px;
 right: 102px;
 z-index: 1000;
 color: #ffffff;
