@@ -23,7 +23,7 @@ h1 {
   font-size: 5rem;
   margin: 20px 0;
   font-weight: bold;
-  color: #d0d3d0;
+  color: #ffffff;
 }
 
 .container button {
@@ -108,7 +108,7 @@ h1 {
         font-size: 5rem;
         margin: 20px 0;
         font-weight: bold;
-        color: #d0d3d0;
+        color: #ffffff;
       }
 
       .container button {
@@ -198,7 +198,7 @@ h1 {
     font-size: 4rem;
     margin: 20px 30px;
     font-weight: bold;
-    color: #d0d3d0;
+    color: #ffffff;
     position: relative;
     height: 200px;
   }
